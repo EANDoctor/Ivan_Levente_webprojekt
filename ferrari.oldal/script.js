@@ -21,7 +21,7 @@ document.querySelector('.next').addEventListener('click', () => {
 setInterval(() => {
   currentIndex = (currentIndex + 1) % slides.length;
   showSlide(currentIndex);
-}, 5000);
+}, 2000);
 
 // Initialize
 showSlide(currentIndex);
